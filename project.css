@@ -1,0 +1,701 @@
+/** nav **/
+body
+{
+    height: 6000px;
+}
+.navbar-brand
+{
+    padding-top: 15px;
+    padding-left: 0
+}
+.navbar-collapse
+{
+    float: right;
+}
+
+.navbar-default {
+    background-color: rgb(0, 0, 0);;
+    border-bottom: none;
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav  li  a
+{
+     color: #5aeeff;
+}
+
+.navbar-default span
+{
+    color: #17bed2
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav li a:hover:before
+{
+    content: "- ";
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+    color: white;
+}
+
+/** end of navbar**/
+
+/**start of slider **/
+
+.carousel-indicators
+{
+    bottom: 0px;
+    top: 950px;
+    height: 500px;
+}
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive, .thumbnail a > img,
+.thumbnail > img
+{
+    width: 100%;
+    height: 1000px;
+}
+.carousel-caption h1
+{
+    font-size: 50px;
+    text-align: left;
+}
+
+.carousel-cent
+{
+    position: absolute;
+    top: 30%;
+}
+.carousel-cent h1 , .carousel-cent p
+{
+    color: white;
+}
+
+.carousel-cent .btn-default
+{
+    background-color: rgba(248, 248, 248, 0);
+    padding: 9px 27px;
+    color: white;
+    border-color: white;
+}
+
+.carousel-cent .btn-default:hover
+{
+    background-color: white;
+    color: black;
+}
+
+/** end of slider **/
+
+/** start of work **/
+
+.work img
+{
+    width: 100%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.one h1
+{
+    margin-top: 95px;
+}
+.one img
+{
+    margin-top: 60px;
+}
+.two img
+{
+    margin-top: 95px;
+}
+.three h1
+{
+    margin-top: 140px;
+}
+
+/** End of Work**/
+
+/** start of choose **/
+.choose
+{
+    background-color: #FAFAFA;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.choose h1
+{
+    color: #515769;
+    margin-bottom: 25px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.choose p
+{
+    color: #a6a7aa;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.choose .btn-default
+{
+    background-color: #515769;
+    color: white;
+    padding: 8px 25px 8px 25px;
+}
+.panel-default>.panel-heading
+{
+    color: #333;
+    background-color: white;
+    border: none;
+}
+.panel
+{
+    border: none;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body
+{
+    border: none;
+    margin-top: -10px;
+}
+
+.accordion .collapse.in, .accordion [aria-expanded=true]
+{
+    color: #fff;
+    background: #17bed2;
+}
+
+.choose .btn-default:hover
+{
+    background-color: #17bed2 
+}
+
+.panel-title > .small,
+.panel-title > .small > a,
+.panel-title > a, .panel-title > small,
+.panel-title > small > a {
+    color: #515769;
+}
+
+.panel-title > .small,
+.panel-title > .small > a,
+.panel-title > a, .panel-title > small,
+.panel-title > small > a:hover
+{
+    text-decoration: none;
+}
+
+
+
+
+/** enf of work**/
+
+/** start of products **/
+
+.products img
+{
+    width: 100%;
+    height: 240px;
+}
+.products a:first-of-type
+{
+    font-size: 22px;
+    color: #515769;
+    font-weight: 700;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.products span
+{
+    color: #bfc1c7;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.products p
+{
+    color: #a6a7aa;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.products a:last-of-type
+{
+    color: #81848f;
+     font-size: 13px;
+    font-weight: 600;
+}
+
+.products a:hover
+{
+    opacity: .7;
+    text-decoration: none;
+}
+
+/** end of products **/
+
+/** start of prof **/
+
+.prof
+{
+    margin-top: 60px;
+    background-color: #FAFAFA;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.prof section
+{
+    background-color: white;
+    margin-left: -26px;
+    padding: 64px 40px;
+}
+
+.prof section p
+{
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.prof section h1
+{
+    font-size: 22px;
+    color: #515769;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 15px;
+}
+
+.prof section h1 span
+{
+    color: #bfc1c7;
+    font-size: 14px;
+    font-weight: 400; 
+}
+
+.prof div:nth-of-type(2) section h1
+{
+    margin-top: 51px;
+}
+
+.prof div:nth-of-type(2) section
+{
+    margin-top: -53px;
+    padding-bottom: 129px;
+}
+ 
+.prof section ol
+{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 35px;
+}
+
+.prof .btn-default
+{
+    background-color: #f3f4f5;
+    color: black;
+    padding: 8px 25px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
+
+.prof .btn-default:hover
+{
+    background-color: #17bed2;
+    color: white;
+}
+
+/** end of prof **/
+
+/** start of working **/
+
+
+
+.fimg , .simg 
+{
+    height: 360px;
+}
+
+.timg , .foimg , .fiimg
+
+{
+    height: 280px;
+}
+
+
+.fimg
+{
+    background: url(11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -14px;
+}
+
+.simg
+{
+    background: url(12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -14px;
+}
+
+.timg 
+{
+    background: url(13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -14px;
+}
+
+.foimg 
+{
+    background: url(14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -14px;
+}
+
+.fiimg 
+{
+    background: url(15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -14px;
+}
+
+.fimg div , .simg div ,
+.timg div , .foimg div ,
+.fiimg div
+{
+    background-color: rgba(35, 35, 35, 0.4);
+    height: 100%;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+
+.fimg div:hover, .simg div:hover ,
+.timg div:hover , .foimg div:hover,
+.fiimg div:hover
+
+{
+    opacity: 1
+}
+
+.working h1
+{
+    font-weight: 700;
+    color: #515769;
+    line-height: 1.4;
+    margin: 0 0 15px;
+    margin-top: 50px;
+}
+
+.working p
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+    margin-bottom: 15px;
+}
+
+
+.working div:first-of-type , .working div:nth-of-type(2)
+{
+    margin-bottom: 6px;
+}
+
+.working hr
+{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.working ol
+{
+    padding-left: 32px;
+    padding-right: 10px;
+}
+
+.working ol li
+{
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.working ol li img:hover
+{
+    background-color: white;
+    opacity: .7
+}
+
+/** end of working **/
+
+/** start of service **/
+.service
+{
+    background-color: #FAFAFA;
+    padding: 50px;
+}
+
+.service h1
+{
+    color: #515769;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 15px;
+    font-size: 22px;
+}
+
+.service p:first-of-type
+{
+    color: #a6a7aa;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+.first
+{
+    overflow: hidden;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    height: 246px;
+
+}
+
+.service .first .sec
+{
+    transition: all .6s ease-in-out;
+}
+.service .first img
+{
+    height: 30px;
+    display: block;
+    opacity: 1;
+    transition: all .4s ease-in-out
+}
+
+.service .first:hover .sec , .service .first:hover img
+{
+    transform: translateY(-30px)
+}
+
+.service .first:hover img
+{
+    opacity: 0
+}
+
+.first h3
+{
+    color: #515769;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 15px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.first p
+{
+    color: #a6a7aa;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.service div:nth-of-type(2) .first
+{
+    background-color: #17bed2;
+
+}
+.service div:nth-of-type(2) .first h3
+{
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 15px;
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+}
+
+.service div:nth-of-type(2) .first p
+{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.service a:hover
+{
+    text-decoration: none;
+}
+
+/** end of service **/
+
+/** start of office **/
+
+.office
+{
+    padding: 50px;
+}
+
+.office a
+{
+    color: #515769;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.4;
+    font-family: Hind,sans-serif;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.office a:hover
+{
+    opacity: .7
+}
+
+.office div span:first-of-type
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: #bfc1c7;
+    line-height: 1.4;
+}
+
+.office p
+{
+    color: #a6a7aa;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.office .glyphicon
+{
+    font-size: 20px;
+    color: #17bed2;
+    margin-right: 15px;
+    margin-bottom: 14px;
+}
+.office div
+{
+    color: #8a8a8a;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/** end of office **/
+
+/** start of map **/
+.asd
+{
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+ 
+ /** end of map**/
+ 
+ /** start of footer **/
+ 
+.footer .lists ul
+{
+    float: left;
+    list-style: none;
+    margin-top: 75px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.footer .lists ul a
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #515769;
+}
+
+.footer .lists ul a:hover
+{
+    opacity: .7;
+}
+
+.footer .lists ul li
+{
+    margin-bottom: 15px;
+}
+
+.clear
+{
+    clear: both
+}
+
+.footer .asdf
+{
+    color: #515769;
+    text-decoration: none;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.footer .asdf span
+{
+    color: #17bed2;
+}
+
+.footer .foot 
+{
+    float: right;
+}
+
+.footer .foot a
+{
+    color: #81848f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer .foot a:hover
+{
+    opacity: .7;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
